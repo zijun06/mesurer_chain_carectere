@@ -5,5 +5,8 @@
 #Vous devez afficher dans la console le nombre de mot exact.
 
 chaine = str(input("Entre le la chane de carectere que vous voulez calculer: "))
-print("vous avez ", len(chaine.split(" ")), "carectere dasn cette chain.")
 
+def word_count():
+  print("vous avez ", len(chaine.split(" ")), "carectere dasn cette chain.")
+
+word_count()
